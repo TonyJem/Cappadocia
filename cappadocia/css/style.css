@@ -12,7 +12,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face{
     font-family: "RobotoCondensed-Light";
     src: url("../fonts/RobotoCondensed-Light.woff2") format("woff2"),
@@ -21,7 +20,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face{
     font-family: "RobotoCondensed-LightItalic";
     src: url("../fonts/RobotoCondensed-LightItalic.woff2") format("woff2"),
@@ -30,7 +28,6 @@
     font-style: italic;
     font-display: swap;
 }
-
 @font-face{
     font-family: "RobotoCondensed-Regular";
     src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"),
@@ -39,35 +36,29 @@
     font-style: normal;
     font-display: swap;
 }
+
 ul{
     list-style: none;
 }
-
-
 a{
     color: inherit;
     text-decoration: none;
 }
-
 body{
     color: #000000;
     font-family: "RobotoCondensed-Light";
     font-size: 18px;
     line-break: 21px;
 }
-
-
 .container{
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
 }
-
 .page-section{
     margin: 200px auto;
     max-width: 1920px;
 }
-
 .title{
     font-size: 96px;
     line-height: 128px;
@@ -76,7 +67,6 @@ body{
     font-weight: 300;
     margin-bottom: 100px;
 }
-
 .title span{
     line-height: 28px;
     font-size: 28px;
@@ -86,7 +76,6 @@ body{
     display: block;
     margin-top: -30px;
 }
-
 .header{
     background-image: url('../images/header-bg.jpg');
     height: 100vh;
@@ -94,7 +83,6 @@ body{
     background-size: cover;
     background-position: bottom center;
 }
-
 .header__top{
     display: flex;
     justify-content: space-between;
@@ -103,24 +91,19 @@ body{
     line-height: 28px;
     font-family: "RobotoCondensed-Regular";
 }
-
 .menu__list-item{
     display: inline-block;
 }
-
 .menu__list-item + .menu__list-item {
     margin-left: 52px;
 }
-
 .menu__list-link:hover{
     text-decoration: underline;
 }
-
 .header__phone{
     padding-left: 40px;
     position: relative;
 }
-
 .header__phone::before{
     content: "";
     position: absolute;
@@ -129,7 +112,6 @@ body{
     height: 30px;
     left: 0;
 }
-
 .header__title{
     padding-top: 152px;
     text-align: center;
@@ -138,7 +120,6 @@ body{
     font-family: "balqis";
     font-weight: 300;
 }
-
 .header__title span{
     display: block;
     text-align: right;
@@ -148,7 +129,6 @@ body{
     margin-top: -66px;
     margin-right: 85px;
 }
-
 .fairy-tail__slider{
     width: 50%;
 }
@@ -168,11 +148,9 @@ body{
 .slick-next{
     right: 0;
 }
-
 .fairy-tail__inner{
     position: relative;
 }
-
 .fairy-tail__container, .our-trip__container{
     max-width: 1230px;
     padding: 0 15px;
@@ -183,7 +161,6 @@ body{
     right: 0;
     bottom: 0;
 }
-
 .fairy-tail__body{
     width: 50%;
     margin-left: auto;
@@ -193,32 +170,25 @@ body{
     justify-content: space-around;
     height: 100%;
 }
-
 .fairy-tail__body-title{
     font-family: "RobotoCondensed-Regular";
 }
-
 .fairy-tail__text{
     padding: 10px 0;
 }
-
 .fairy-tail__title span{
     margin-left: 185px;
 }
-
 .our-trip__slider{
     width: 50%;
     margin-left: auto;
 }
-
 .our-trip__inner{
     position: relative;
 }
-
 .our-trip__title span{
     margin-left: 240px;
 }
-
 .our-trip__body{
     display: flex;
     flex-direction: column;
@@ -226,18 +196,15 @@ body{
     align-items: start;
     height: 100%;
 }
-
 .our-trip__list{
     margin: 5px 0;
     font-size: 24px;
     line-height: 28px;
 }
-
 .our-trip__list li:first-child{
     margin-bottom: 20px;
     font-family: "RobotoCondensed-Regular";
 }
-
 .our-trip__btn{
     font-family: "RobotoCondensed-Light";
     font-size: 24px;
@@ -245,47 +212,37 @@ body{
     border: 1px solid #E2AB3F;
     padding: 11px 53px;
 }
-
 .our-trip__content{
     width: 50%;
     padding-right: 55px;
 }
-
 .hotel__title span{
     margin-left: 120px;
 }
-
 .hotel__inner{
     display: flex;
 }
-
 .hotel__images{
     margin-right: 100px;
 }
-
 .hotel__text{
     margin-bottom: 20px;
 }
-
 .hotel__gallery{
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .hotel__gallery a {
     margin-top: 50px;
 }
-
 .price__title span{
     margin-left: 120px;
 }
-
 .price__inner{
     display: flex;
 }
-
 .price__on-title,
 .price__off-title {
     line-height: 28px;
@@ -293,34 +250,28 @@ body{
     font-size: 24px;
     font-family: "RobotoCondensed-Regular";
 }
-
 .price__on{
     margin-right: 70px;
     width: 530px;
 }
-
 .price_list-item{
     margin-bottom: 20px;
 }
-
 .price{
     background-image: url(../images/price-bg.png);
     background-repeat: no-repeat;
     background-position: center right 18%;
 }
-
 .contacts__inner{
     display: flex;
     justify-content: space-between;
 }
-
 .contacts__content{
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-
 .contacts__date,
 .contacts__price {
     font-family: "balqis";
@@ -329,15 +280,12 @@ body{
     line-height: 100px;
     font-weight: 300;
 }
-
 .contacts__date{
     margin-bottom: 20px;
 }
-
 .contacts__price{
     margin-left: 120px;
 }
-
 .contacts__date span,
 .contacts__price span{
     font-size: 24px;
@@ -348,19 +296,16 @@ body{
     margin-top: -10px;
     margin-left: 205px;
 }
-
 .contacts__form{
     max-width: 383px;
     margin: 0 auto;
 }
-
 .contacts__form-title{
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 50px;
     font-family: "RobotoCondensed-Regular";
 }
-
 .contacts__form-input{
     border: 1px solid #E2AB3F;
     display: block;
@@ -373,11 +318,9 @@ body{
     font-weight: 300;
     font-family: "RobotoCondensed-Light";
 }
-
 .contacts__form-input::placeholder{
     color: #000000;
 }
-
 .contacts__form-btn{
     font-family: "RobotoCondensed-Light";
     font-size: 24px;
@@ -389,7 +332,6 @@ body{
     font-weight: 300;
     cursor: pointer;
 }
-
 .footer{
     background-image: url(../images/footer-bg.jpg);
     height: 100vh;
@@ -397,36 +339,32 @@ body{
     background-position: bottom center;
     padding-top: 96px;
 }
-
 .footer__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .footer__text{
     font-size: 86px;
     line-height: 115px;
     font-family: "balqis";
 }
-
 .footer__contacts{
     width: 356px;
     height: 527px;
     background-image: url(../images/footer-contact-bg.png);
     background-repeat: no-repeat;
     text-align: center;
+    background-size: cover;
 }
-
 .footer__contacts-title{
+    padding-top: 50px;
     font-size: 86px;
     line-height: 115px;
     font-family: "balqis";
     color: #E2AB3F;
     margin-bottom: 50px;
-    padding-top: 50px;
 }
-
 .footer__phone,
 .footer__email{
     display: inline-block;
@@ -434,7 +372,6 @@ body{
     position: relative;
 
 }
-
 .footer__phone::before,
 .footer__email::before{
     content: "";
@@ -444,23 +381,18 @@ body{
     left: 0;
     top: -5px;
 }
-
 .footer__phone::before{
     background-image: url(../images/footer-phone-icon.svg);
 }
-
 .footer__email::before{
     background-image: url(../images/footer-email-icon.svg);
 }
-
 .footer__phone{
     margin-bottom: 20px;
 }
-
 .footer__social{
     margin-top: 38px;
 }
-
 .footer__social a{
     margin: 0 7px;
 }
